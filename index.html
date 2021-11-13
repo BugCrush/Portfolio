@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--META-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" http-equiv="X-UA-Compatible">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!--TITLE-->
+    <title>Aditya's Portfolio</title>
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+    <!--FAVICON-->
+    <link rel="icon" type="image/x-icon" href="/media/bugcrushlogo.png">
+
+</head>
+<body>
+
+
+
+    <div id="loading">
+        <div id="loader">
+        </div>
+    </div>
+
+    <!--
+    <section class="cover-photo">
+        <div class="my-image"><img src="image-removebg-preview.png" alt=""></div>
+    </section>
+    -->
+    <div class="cover">
+        <a href="#"><canvas id="dots"></canvas></a>
+        <div class="contactrow">
+            <a href="https://www.linkedin.com/in/aditya-khattar-03022001/" class="contactrowitem" target="_blank" style="color: #ffffffce;"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/BugCrush" class="contactrowitem" target="_blank" style="color: #ffffffce;"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/__khattarnaak__/" class="contactrowitem" target="_blank" style="color: #ffffffce;"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/aditya.khattar.921/" class="contactrowitem" target="_blank" style="color: #ffffffce;"><i class="fab fa-facebook"></i></a>
+            <a href="mailto:khattaraditya2001@gmail.com" class="contactrowitem" target="_blank" style="color: #ffffffce;"><i class="far fa-envelope"></i></a>
+            <a href="https://discordapp.com/users/545514670287486979/" class="contactrowitem" target="_blank" style="color: #ffffffce;"><i class="fab fa-discord"></i></a>
+            <a href="https://steamcommunity.com/id/khattar/" class="contactrowitem" target="_blank" style="color: #ffffffce;"><i class="fab fa-steam"></i></a>
+        </div>
+        <a href="#navigator" class="downbtn" style="color: white;"><i class="fas fa-chevron-circle-down circledown"></i></i></a>
+    </div>
+
+    <div id="navigator" class="navigator-container">
+        <div class="navigator relative" style="background-position: center; background-size: cover;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+                        <div class="hexagon-menu">
+                            <div class="hexagon-item">
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <a href="#profile" class="hex-content">
+                                    <span class="hex-content-inner">
+                                        <span class="icon">
+                                            <i class="far fa-user-circle"></i>
+                                        </span>
+                                        <span class="title">Profile</span>
+                                    </span>
+                                    <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                </a>
+                            </div>
+                            <div class="hexagon-item">
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <a href="#experiences" class="hex-content">
+                                    <span class="hex-content-inner">
+                                        <span class="icon">
+                                            <i class="fas fa-users"></i>
+                                        </span>
+                                        <span class="title">Experiences</span>
+                                    </span>
+                                    <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                </a>
+                            </div>
+                            <div class="hexagon-item">
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <a href="#projects" class="hex-content">
+                                    <span class="hex-content-inner">
+                                        <span class="icon">
+                                            <i class="fas fa-code-branch"></i>
+                                        </span>
+                                        <span class="title">Projects</span>
+                                    </span>
+                                    <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                </a>    
+                            </div>
+                            <div class="hexagon-item">
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <a href="#abilities" class="hex-content">
+                                    <span class="hex-content-inner">
+                                        <span class="icon">
+                                            <i class="fas fa-list-ul"></i>
+                                        </span>
+                                        <span class="title">Abilities</span>
+                                    </span>
+                                    <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                </a>
+                            </div>
+                            <div class="hexagon-item">
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <a href="#communities" class="hex-content">
+                                    <span class="hex-content-inner">
+                                        <span class="icon">
+                                            <i class="far fa-handshake"></i>
+                                        </span>
+                                        <span class="title">Communities</span>
+                                    </span>
+                                    <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                </a>
+                            </div>
+                            <div class="hexagon-item">
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <a href="https://drive.google.com/file/d/10hnmMwObaI-0ehgWH8rfpQVsNNNV0_pR/view?usp=sharing" target="_blank" class="hex-content">
+                                    <span class="hex-content-inner">
+                                        <span class="icon">
+                                            <i class="far fa-id-badge"></i>
+                                        </span>
+                                        <span class="title">Resume</span>
+                                    </span>
+                                    <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                </a>
+                            </div>
+                            <div class="hexagon-item">
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <a href="#contact" class="hex-content">
+                                    <span class="hex-content-inner">
+                                        <span class="icon">
+                                            <i class="fas fa-street-view"></i>
+                                        </span>
+                                        <span class="title">Contact</span>
+                                    </span>
+                                    <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="nav-sections">
+        <section id="profile" class="nav-section profile">
+            <h2 class="section-title headf-bold">PROFILE</h2>
+            <h2 class="section-subtitle headf-lit">I'm a Frontend Developer & UI/UX Designer</h2>
+            <hr class="section-hr">
+            <div class="section-body">
+                <div class="about-me">
+                    <h1 class="about-me-head headf-bold">Me & my pen...</h1>
+                    <p class="about-me-p bodyf-lit">
+                        I am a student at Manipal University Jaipur, currently pursuing my Bachelor's degree in Computer Science Engineering. The journey from a novice to a bit of an intellect in the field of Frontend Development and Designing has taught me patience and that great things require time to achieve and gave me enough experience on how to go about things I've never even heard of. I apply similar thinking in both leadership and coding because whether it's your team or variables, you're connecting to them on their terms and logic in order to influence and optimize an outcome.
+                    </p>
+                </div>
+                <div class="photo-me">
+                    <img src="/media/me3.jpg" alt="" class="img-me">
+                </div>
+                <div class="details-me">
+                    <h1 class="details-me-head headf-bold">Details</h1>
+                    <p class="details-me-p">
+                        <br>
+                        <h2 class="bodyf-reg">Name: <span class="bodyf-lit">Aditya Khattar</span></h2>
+                        <br>
+                        <h2 class="bodyf-reg">Age: <span class="bodyf-lit">20 years</span></h2>
+                        <br>
+                        <h2 class="bodyf-reg">Location: <span class="bodyf-lit"><a href="https://jaipur.manipal.edu/" class="muj" style="color: #00ff00; text-decoration: underline;">Manipal University Jaipur</a></span></h2>
+                        <br>
+                        <br>
+                        <h2 class="bodyf-reg">Actively looking for internships based on my skills and profile with preferences to fullstack development.</h2>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiences" class="nav-section experiences">
+            <h2 class="section-title headf-bold">EXPERIENCES</h2>
+            <h2 class="section-subtitle headf-lit">“Fall seven times and stand up eight.”</h2>
+            <hr class="section-hr">
+            <div class="section-body expsection">
+                <h3 class="exphead headf-bold">Academics</h3>
+                <hr style="border: none; color: white; width: 100%; height: 1px; background-color: white;">
+                <div class="expgrid">
+                    <div class="expcol1">
+                        <h3 class="expname headf-reg"><a href="https://jaipur.manipal.edu/" style="color: white;">Manipal University Jaipur</a></h3>
+                        <h4 class="expduration headf-lit">2019 - 2023</h4>
+                    </div>
+                    <div class="expcol2">
+                        <h3 class="expdesc bodyf-reg">Bachelor's degree of Technology in Computer Science Engineering with specialization in Data Sciencein addition to Introduction to Astronomical Sciences and Remote Sensing GIS as Open Electives.</h3>
+                        <h4 class="explocation bodyf-lit"><a href="https://goo.gl/maps/u5J7xHtcyuVortJW7" style="color: white;"><i class="fas fa-map-marked-alt" style="font-size: 20px; margin-right: 0.4rem; color: #00ff00;"></i> Dehmi Kalan, Jaipur, Rajasthan, India</a></h4>
+                    </div>
+                    <div class="expcol1">
+                        <h3 class="expname headf-reg"><a href="https://www.mvneducation.com/mvn-aravali/" style="color: white;">Modern Vidya Niketan, Aravali Hills</a></h3>
+                        <h4 class="expduration headf-lit">2010 - 2018</h4>
+                    </div>
+                    <div class="expcol2">
+                        <h3 class="expdesc bodyf-reg">Schooling (affiliated to C.B.S.E.) from grade IV to grade XII.</h3>
+                        <h4 class="explocation bodyf-lit"><a href="https://goo.gl/maps/ykxN3W316w1ETn6Q9" style="color: white;"><i class="fas fa-map-marked-alt" style="font-size: 20px; margin-right: 0.4rem; color: #00ff00;"></i> Sector-43, Faridabad, Haryana, India</a></h4>
+                    </div>
+                    <div class="expcol1">
+                        <h3 class="expname headf-reg"><a href="https://www.ryangroup.org/site/risfaridabad/about-school.php" style="color: white;">Ryan International School</a></h3>
+                        <h4 class="expduration headf-lit">2007 - 20010</h4>
+                    </div>
+                    <div class="expcol2">
+                        <h3 class="expdesc bodyf-reg">Schooling (affiliated to C.B.S.E.) from grade I to grade III.</h3>
+                        <h4 class="explocation bodyf-lit"><a href="https://goo.gl/maps/U1djrWHQNMzYyxJu5" style="color: white;"><i class="fas fa-map-marked-alt" style="font-size: 20px; margin-right: 0.4rem; color: #00ff00;"></i> Sector-21B, Faridabad, Haryana, India</a></h4>
+                    </div>
+                </div>
+
+                <h3 class="exphead headf-bold" style="margin-top: 3.5rem;">Careers</h3>
+                <hr style="border: none; color: white; width: 100%; height: 1px; background-color: white;">
+                <div class="expgrid">
+                    <div class="expcol1">
+                        <h3 class="expname headf-reg"><a href="https://d2rtech.com/" style="color: white;">D2R Technologies Pvt. Ltd.</a></h3>
+                        <h4 class="expduration headf-lit">06/2021 - 09/2021</h4>
+                    </div>
+                    <div class="expcol2">
+                        <h3 class="expdesc bodyf-reg">
+                            <p class="bodyf-bold">Fullstack Developer</p>
+                            Remote Internship
+                            <br>
+                            D2R Tech Private Limited is a bootstrapped private limited startup. The organization aims to set up various services verticals and build products.
+                            <br>
+                            <br>
+                            <p class="bodyf-bold">Tasks Completed:</p>
+                            <ul class="explist">
+                                <li>UI Designing using Figma</li>
+                                <li>Website Development for DBF Central</li>
+                                <li>App Development using React Native</li>
+                            </ul>
+                            <br>
+                            <p class="headf-lit">Contact: <span class="bodyf-lit">Mr. Vineet Bhargava </span><a href="tel:+918368045461" class="bodyf-lit" style="color: #00ff00;">+91 8368045461</a></p>
+                        </h3>
+                        <h4 class="explocation bodyf-lit"><a href="https://goo.gl/maps/ZWYQ5Qz5rkmaM1vm9" style="color: white;"><i class="fas fa-map-marked-alt" style="font-size: 20px; margin-right: 0.4rem; color: #00ff00;"></i> Sector 67, Gurgaon, Haryana, India</a></h4>
+                    </div>
+                    <div class="expcol1">
+                        <h3 class="expname headf-reg"><a href="http://www.trendyadvertising.com/" style="color: white;">Trendy Advertising Services Associates Pvt. Ltd.</a></h3>
+                        <h4 class="expduration headf-lit">06/2020 - 09/2020</h4>
+                    </div>
+                    <div class="expcol2">
+                        <h3 class="expdesc bodyf-reg">
+                            <p class="bodyf-bold">Frontend Developer</p>
+                            Remote Internship
+                            <br>
+                            TRENDY ADVERTISING SERVICES ASSOCIATES PRIVATE LIMITED is a company based out of E-88, Basement, Ashok Vihar, Phase-1, Delhi, Delhi, India.
+                            <br>
+                            <br>
+                            <p class="bodyf-bold">Tasks Completed:</p>
+                            <ul class="explist">
+                                <li>Website Development for the Company</li>
+                            </ul>
+                            <br>
+                            <p class="headf-lit">Contact: <span class="bodyf-lit">Ms. Vrinda Jain </span><a href="tel:+918800660629" class="bodyf-lit" style="color: #00ff00;">+91 8800660629</a></p>
+                        </h3>
+                        <h4 class="explocation bodyf-lit"><a href="https://goo.gl/maps/o66sXKzVCbt3D86UA" style="color: white;"><i class="fas fa-map-marked-alt" style="font-size: 20px; margin-right: 0.4rem; color: #00ff00;"></i> Ashok Vihar, Delhi, India.</a></h4>
+                    </div>
+                    <div class="expcol1">
+                        <h3 class="expname headf-reg"><a href="https://jaipur.manipal.edu/" style="color: white;">Manipal University Jaipur</a></h3>
+                        <h4 class="expduration headf-lit">10/2020 - 02/2021</h4>
+                    </div>
+                    <div class="expcol2">
+                        <h3 class="expdesc bodyf-reg">
+                            <p class="bodyf-bold">Web Developer for SpacSec'21 Conference</p>
+                            College Conference Website
+                            <br>
+                            SpacSec’21 is an opportunity for researchers, educators, professionals, practitioners, scientists, Earth science researchers, and students around the world who are involved in the study, development and implementation of systems and concepts to combat information warfare and all aspects of Space technology and research to come together and exchange ideas.
+                            <br>
+                            <br>
+                            <p class="bodyf-bold">Tasks Completed:</p>
+                            <ul class="explist">
+                                <li>UI Designing using Figma</li>
+                                <li>Website Development for the Conference</li>
+                            </ul>
+                            <br>
+                            <p class="headf-lit">Contact: <span class="bodyf-lit">Prof. Amit Kumar Bairwa </span><a href="tel:+9197996 06918" class="bodyf-lit" style="color: #00ff00;">+91 97996 06918</a></p>
+                        </h3>
+                        <h4 class="explocation bodyf-lit"><a href="https://goo.gl/maps/u5J7xHtcyuVortJW7" style="color: white;"><i class="fas fa-map-marked-alt" style="font-size: 20px; margin-right: 0.4rem; color: #00ff00;"></i> Dehmi Kalan, Jaipur, Rajasthan, India</a></h4>
+                    </div>
+                    <div class="expcol1">
+                        <h3 class="expname headf-reg"><a href="https://evelynlearning.com/" style="color: white;">Evelyn Learning Systems Pvt. Ltd.</a></h3>
+                        <h4 class="expduration headf-lit">11/2019 - 12/2019</h4>
+                    </div>
+                    <div class="expcol2">
+                        <h3 class="expdesc bodyf-reg">
+                            <p class="bodyf-bold">Subject Matter Expert for Mathematics</p>
+                            Remote Internship
+                            <br>
+                            Subject Matter Expert (Mathematics) at Evelyn Learning Systems which is a leading brand that creates educational content development across all STEM, Business and Healthcare subjects to engage and inspire. 
+                            <br>
+                            <br>
+                            <p class="bodyf-bold">Tasks Completed:</p>
+                            <ul class="explist">
+                                <li>Writing solutions for international mathematics textbooks of grad level (Grades XI, XII and Engineering Mathematics) .</li>
+                            </ul>
+                            <br>
+                            <p class="headf-lit">Contact: <span class="bodyf-lit">Ms. Parul Behl </span><a href="tel:+918595234774" class="bodyf-lit" style="color: #00ff00;">+91 8595234774</a></p>
+                        </h3>
+                        <h4 class="explocation bodyf-lit"><a href="https://goo.gl/maps/Yoghx13MYaUvuXXZ6" style="color: white;"><i class="fas fa-map-marked-alt" style="font-size: 20px; margin-right: 0.4rem; color: #00ff00;"></i> Ghitorni, Delhi, India</a></h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="nav-section projects">
+            <h2 class="section-title headf-bold">PROJECTS</h2>
+            <h2 class="section-subtitle headf-lit">“It's not enough to be busy, so are the ants. The question is, what are we busy about?”</h2>
+            <hr class="section-hr">
+            <div class="section-body">
+                <div class="projectsgrid">
+                    <div class="project1">
+                        <a href="https://bugcrush.github.io/New_Tab/" target="_blank">
+                            <svg class="projectframe1" viewbox="0 0 160 90" width="160" height="90">
+                                <defs>
+                                    <mask id="mask1" x="0" y="0" width="100" height="49">
+                                        <rect x="0.5" y="0" width="159" height="89" fill="#fff"/>
+                                        <text class="text1" x="80" text-anchor="middle" y="55" dy="0">NewTab</text>
+                                    </mask>
+                                    <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="100%" gradientUnits="userSpaceOnUse" >
+                                        <stop stop-color="#282537" offset="5%"/>
+                                        <stop stop-color="#8c9cff" offset="50%"/>
+                                        <stop stop-color="#282537" offset="95%"/> 
+                                      </linearGradient>
+                                </defs>
+                                <rect class="projectframecover1" x="2" y="2" width="156" height="86" mask="url(#mask1)" fill-opacity="1" fill="url(#gradient)"/>
+                            </svg>
+                        </a>
+                        <p class="projectdescription1 bodyf-lit">This is a personalized template for a New Tab as most of the new tabs in many browsers are not much customizable. Brave Browser's unfinished New Tab was the motivation behind this project.</p>
+                    </div>
+                    <div class="project2">
+                        <a href="https://rapidchatapp.herokuapp.com/" target="_blank">
+                            <svg class="projectframe2" viewbox="0 0 160 90" width="160" height="90">
+                                <defs>
+                                    <mask id="mask2" x="0" y="0" width="100" height="49">
+                                        <rect x="0.5" y="0" width="159" height="89" fill="#fff"/>
+                                        <text class="text2" x="80" text-anchor="middle" y="55" dy="0">Rapid Chat</text>
+                                    </mask>
+                                </defs>
+                                <rect class="projectframecover2" x="2" y="2" width="156" height="86" mask="url(#mask2)" fill-opacity="1" fill="url(#gradient)"/>
+                            </svg>
+                        </a>
+                        <p class="projectdescription2 bodyf-lit">Rapid Chat serves as a real time chatting webapp, where any number of users can hop on and have a conversation irrespective of their locations. Each user just has to hop on to the URL to join the server and have a great time with everyone else. Rapid Chat will allow you to get in touch with theoretically anyone who has the link to get connected to the server.</p>
+                    </div>
+                    <div class="project3">
+                        <a href="https://docs.google.com/presentation/d/1rcMREiIZJDW2tG6bNlSLH_BhCWpdjGF_/edit?usp=sharing&ouid=101554222382647571056&rtpof=true&sd=true" target="_blank">
+                            <svg class="projectframe3" viewbox="0 0 160 90" width="160" height="90">
+                                <defs>
+                                    <mask id="mask3" x="0" y="0" width="100" height="49">
+                                        <rect x="0.5" y="0" width="159" height="89" fill="#fff"/>
+                                        <text class="text3" x="80" text-anchor="middle" y="55" dy="0">429</text>
+                                    </mask>
+                                </defs>
+                                <rect class="projectframecover3" x="2" y="2" width="156" height="86" mask="url(#mask3)" fill-opacity="1" fill="url(#gradient)"/>
+                            </svg>
+                        </a>
+                        <p class="projectdescription3 bodyf-lit">This is a personalized template for a New Tab as most of the new tabs in many browsers are not much customizable. Brave Browser's unfinished New Tab was the motivation behind this project.</p>
+                    </div>
+                    <div class="project4">
+                        <a href="https://www.spacsec.com/" target="_blank">
+                            <svg class="projectframe4" viewbox="0 0 160 90" width="160" height="90">
+                                <defs>
+                                    <mask id="mask4" x="0" y="0" width="100" height="49">
+                                        <rect x="0.5" y="0" width="159" height="89" fill="#fff"/>
+                                        <text class="text4" x="80" text-anchor="middle" y="55" dy="0">SpacSec21</text>
+                                    </mask>
+                                </defs>
+                                <rect class="projectframecover4" x="2" y="2" width="156" height="86" mask="url(#mask4)" fill-opacity="1" fill="url(#gradient)"/>
+                            </svg>
+                        </a>
+                        <p class="projectdescription4 bodyf-lit">SpacSec’21 is an opportunity for satellite and space researchers, space agency executives, geophysicists, spacecraft ground control operators, agencies, Earth science researchers, geologists, satellite launch vehicle manufacturers/ operators, artists and students around the world who are involved in the study, management, development and implementation of systems and concepts to combat information warfare and all aspects of Space technology and research to come together and exchange ideas.</p>
+                    </div>
+                    <div class="project5">
+                        <a href="https://ieeemuj.com/" target="_blank">
+                            <svg class="projectframe5" viewbox="0 0 160 90" width="160" height="90">
+                                <defs>
+                                    <mask id="mask5" x="0" y="0" width="100" height="49">
+                                        <rect x="0.5" y="0" width="159" height="89" fill="#fff"/>
+                                        <text class="text5" x="80" text-anchor="middle" y="55" dy="0">IEEE</text>
+                                    </mask>
+                                </defs>
+                                <rect class="projectframecover5" x="2" y="2" width="156" height="86" mask="url(#mask5)" fill-opacity="1" fill="url(#gradient)"/>
+                            </svg>
+                        </a>
+                        <p class="projectdescription5 bodyf-lit">IEEE Student Branch, Manipal University Jaipur is a group of driven individuals striving to create and spread awareness about various technologies that surround us. In our pursuit for quality and practical knowledge, we are guided by a group of dedicated faculty members who are relentless in their efforts to hone our potential and mould us into the best engineers we could possibly become.</p>
+                    </div>
+                    <div class="project6">
+                        <a href="https://drive.google.com/file/d/1UMkz-qnedyxrIE1S7MihSJsZxats-Zxm/view?usp=sharing" target="_blank">
+                            <svg class="projectframe6" viewbox="0 0 160 90" width="160" height="90">
+                                <defs>
+                                    <mask id="mask6" x="0" y="0" width="100" height="49">
+                                        <rect x="0.5" y="0" width="159" height="89" fill="#fff"/>
+                                        <text class="text6" x="80" text-anchor="middle" y="55" dy="0">Giglancer</text>
+                                    </mask>
+                                </defs>
+                                <rect class="projectframecover6" x="2" y="2" width="156" height="86" mask="url(#mask6)" fill-opacity="1" fill="url(#gradient)"/>
+                            </svg>
+                        </a>
+                        <p class="projectdescription6 bodyf-lit">Giglancer (formerly Permalancer) is an app that helps recruiters find interns, freelancers and freshers and hire them on wwekly/mothly/yearly contracts. This helps build a great network of employees and employers, which helps the employer find good talent and helps the employee get reasonable pay for their hardwork.</p>
+                    </div>
+                    <div class="project7">
+                        <a href="https://fmhc.visionux.in/" target="_blank">
+                            <svg class="projectframe7" viewbox="0 0 160 90" width="160" height="90">
+                                <defs>
+                                    <mask id="mask7" x="0" y="0" width="100" height="49">
+                                        <rect x="0.5" y="0" width="159" height="89" fill="#fff"/>
+                                        <text class="text7" x="80" text-anchor="middle" y="55" dy="0">DBF</text>
+                                    </mask>
+                                </defs>
+                                <rect class="projectframecover7" x="2" y="2" width="156" height="86" mask="url(#mask7)" fill-opacity="1" fill="url(#gradient)"/>
+                            </svg>
+                        </a>
+                        <p class="projectdescription7 bodyf-lit">DELHI BIBLE FELLOWSHIP CENTRAL. Cultivating Christ centred Communities to Redeem Delhi & beyond for the glory of God</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="abilities" class="nav-section abilities">
+            <h2 class="section-title headf-bold">ABILITIES</h2>
+            <h2 class="section-subtitle headf-lit">“I am made and remade continually.”</h2>
+            <hr class="section-hr">
+            <div class="section-body abilitiessection">
+                <h3 class="abilitieshead headf-bold">Skills</h3>
+                <hr style="border: none; color: white; width: 100%; height: 1px; background-color: white;">
+                <div class="abilitiesgrid">
+                    <div class="abilitiescol1">
+
+                        <div class="abilityrow">
+                            <div class="abilityname bodyf-reg">HTML5</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">CSS3</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">BOOTSTRAP</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">HALFMOON CSS</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">SASS</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">STYLUS</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">JAVASCRIPT ES6</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">MATERIALIZE</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">EJS</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">REACT NATIVE</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">REACTJS</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">NODEJS</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">PUG</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+
+                    </div>
+                    <div class="abilitiescol2">
+
+                        <div class="abilityrow">
+                            <div class="abilityname bodyf-reg">PYTHON</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">C++</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">C</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">WORDPRESS</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">SEO</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">PHP</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">SQL</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">JQUERY</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">JAVA</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">LESS</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">COMPUTER VISION</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">VISUAL BASIC</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">RUBY</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <h3 class="abilitieshead headf-bold" style="margin-top: 4rem;">Languages</h3>
+                <hr style="border: none; color: white; width: 100%; height: 1px; background-color: white;">
+                <div class="abilitiesgrid">
+                    <div class="abilitiescol1">
+                        <div class="abilityrow">
+                            <div class="abilityname bodyf-reg">HINDI</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">ENGLISH</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                    </div>
+                    <div class="abilitiescol2">
+                        <div class="abilityrow">
+                            <div class="abilityname bodyf-reg">PUNJABI</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="abilitieshead headf-bold" style="margin-top: 4rem;">Tools</h3>
+                <hr style="border: none; color: white; width: 100%; height: 1px; background-color: white;">
+                <div class="abilitiesgrid">
+                    <div class="abilitiescol1">
+
+                        <div class="abilityrow">
+                            <div class="abilityname bodyf-reg">VISUAL STUDIO CODE</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">MS OFFICE</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">DEV C++</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">NOTEPAD++</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">WINDOWS</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">SUBLIME TEXT</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">CHROMIUM BROWSERS</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">FIREFOX</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">WINDOWS POWERSHELL</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">CLI</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">ADOBE ACROBAT</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">CODEPEN</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">ZOOM</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+
+                    </div>
+                    <div class="abilitiescol2">
+
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">ADOBE DREAMWEAVER</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">ANDROID VIRTUAL DEVICE</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">FIGMA</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">UIZARD</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">SLACK</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">NOTION</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">
+                            <div class="abilityname bodyf-reg">FILEZILLA</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">HEROKU</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">CHROME DEV TOOLS</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">XAMPP</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">ADOBE FLASH</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">ANDROID STUDIO</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+                        <div class="abilityrow">    
+                            <div class="abilityname bodyf-reg">ADOBE PHOTOSHOP</div>
+                            <div class="abilitystars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="communities" class="nav-section communities">
+            <h2 class="section-title headf-bold">COMMUNITIES</h2>
+            <h2 class="section-subtitle headf-lit">“If I have seen further, it is by standing on the shoulders of giants.”</h2>
+            <hr class="section-hr">
+            <div class="section-body communitysection">
+                <div class="community">
+                    <div class="communityimgholder"><a href="https://www.ieee.org/" target="_blank" class="communitylink"><img src="https://www.logolynx.com/images/logolynx/27/279e447866f05c87b8393385e4a60e30.png" alt="ACM" class="communityimg"></a></div>
+                    <p class="communitydesc headf-bold">Institute of Electrical and Electronics Engineers</p>
+                    <p class="communityposition bodyf-reg">Member</p>
+                    <p class="communityduration headf-lit">2021 - Present</p>
+                </div>
+                <div class="community">
+                    <div class="communityimgholder"><a href="https://ieeemuj.com/" target="_blank" class="communitylink"><img src="https://ieeemuj.com/nextimg/%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimgs%2Flogo.e5f47e2260ea17e37c2a76b835da1384.png/3840/75?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimgs%2Flogo.e5f47e2260ea17e37c2a76b835da1384.png&w=3840&q=75" alt="ACM" class="communityimg"></a></div>
+                    <p class="communitydesc headf-bold">IEEE Student Branch MUJ</p>
+                    <p class="communityposition bodyf-reg">Webmaster</p>
+                    <p class="communityduration headf-lit">2021 - Present</p>
+                </div>
+                <div class="community">
+                    <div class="communityimgholder"><a href="https://muj.acm.org/" target="_blank" class="communitylink"><img src="https://jaipur.acm.org/static/media/acm3.8e5dae34.png" alt="ACM" class="communityimg"></a></div>
+                    <p class="communitydesc headf-bold">Association for Computing Machinery</p>
+                    <p class="communityposition bodyf-reg">Member</p>
+                    <p class="communityduration headf-lit">2019 - 2020</p>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer id="contact">
+        <h3 class="socials-head bodyf-bold">GET THROUGH TO ME</h3>
+        <h1 class="socials-p headf-bold">
+            <div class="social social-li"><a href="https://www.linkedin.com/in/aditya-khattar-03022001/" class="social-li">LI<span style="color: #000080;">.</span></a></div>
+            <div class="social social-gh" style="margin-left: 1rem;"><a href="https://github.com/BugCrush" class="social-gh">GH<span style="color: #424242;">.</span></a></div>
+            <div class="social social-ig" style="margin-left: 1rem;"><a href="https://www.instagram.com/__khattarnaak__/" class="social-ig">IG<span style="color: #6200a3;">.</span></a></div>
+            <div class="social social-fb" style="margin-left: 1rem;"><a href="https://www.facebook.com/aditya.khattar.921/" class="social-fb">FB<span style="color: #0000be;">.</span></a></div>
+            <div class="social social-gm" style="margin-left: 1rem;"><a href="mailto:khattaraditya2001@gmail.com" class="social-gm">GM<span style="color: #a70000;">.</span></a></div>
+            <div class="social social-dc" style="margin-left: 1rem;"><a href="https://discordapp.com/users/545514670287486979/" class="social-dc">DC<span style="color: #1d49d8;">.</span></a></div>
+            <div class="social social-st" style="margin-left: 1rem;"><a href="https://steamcommunity.com/id/khattar/" class="social-st">ST<span style="color: #004400;">.</span></a></div>
+        </h1>
+        <hr class="footer">
+        <div style="display: flex; justify-content: center; align-items: center; flex-direction: row;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8107.822875118297!2d75.56368973282196!3d26.844893783572005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4850e05bee9b%3A0x1b8d67402d4eb863!2sManipal%20University%20Jaipur!5e0!3m2!1sen!2sin!4v1636315800526!5m2!1sen!2sin" width="800" height="400" style="border: none; border-radius: 8px;" allowfullscreen="" loading="lazy"></iframe>
+            <form id="contactform" class="contactform" action="POST" data-netlify="true">
+                <div>
+                    <label for="inputname" id="labelname" class="labelname headf-bold">Name:</label>
+                    <br>
+                    <input name="name" type="text" id="inputname" class="inputname bodyf-reg" placeholder="John Doe">
+                </div>
+                <div>
+                    <label for="inputemail" id="labelemail" class="labelemail headf-bold">E-mail Address:</label>
+                    <br>
+                    <input name="email" type="text" id="inputemail" class="inputemail bodyf-reg" placeholder="someone@xyz.com">
+                </div>
+                <div>
+                    <label for="inputmessage" id="labelmessage" class="labelmessage headf-bold">Message:</label>
+                    <br>
+                    <textarea name="message" style="resize: none;" rows="4" cols="20" id="inputmessage" class="inputmessage bodyf-reg" placeholder="Message"></textarea>
+                </div>
+                <a href="#" id="submit" class="submit headf-bold">Send <i class="fas fa-paper-plane"></i></a>
+            </form>
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./intro.js"></script>
+    <script>
+        $(window).on('load', function () {
+            $('#loading').hide();
+        }) 
+    </script>
+
+
+
+</body>
+</html>

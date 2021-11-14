@@ -503,7 +503,6 @@ body::-webkit-scrollbar-thumb, .inputmessage::-webkit-scrollbar-thumb{
 .about-me{
     width: 33.33%;
     height: 390px;
-    /* background-color: indigo; */
     padding: 0 4rem 0 4rem;
 }
 
@@ -518,7 +517,6 @@ body::-webkit-scrollbar-thumb, .inputmessage::-webkit-scrollbar-thumb{
 }
 
 .photo-me{
-    /* background-color: hotpink; */
     width: initial;
     display: flex;
     justify-content: center;
@@ -536,7 +534,6 @@ body::-webkit-scrollbar-thumb, .inputmessage::-webkit-scrollbar-thumb{
 .details-me{
     width: 33.33%;
     height: 390px;
-    /* background-color: rgb(177, 177, 1); */
     padding: 0 3rem 0 3rem;
 }
 
@@ -617,7 +614,7 @@ body::-webkit-scrollbar-thumb, .inputmessage::-webkit-scrollbar-thumb{
 }
 
 .projectframe1{
-    background:url('/media/screen-newtab_Trim.gif');
+    background:url('/media/newtab_Trim.gif');
     background-size:cover;
     width:55vmin; height:auto;
     display:block;
@@ -645,7 +642,7 @@ body::-webkit-scrollbar-thumb, .inputmessage::-webkit-scrollbar-thumb{
 }
 
 .projectframe2{
-    background:url('/media/screen-rapidchat_Trim.gif');
+    background:url('/media/rapidchat_Trim.gif');
     background-size:cover;
     width:55vmin; height:auto;
     display:block;
@@ -673,7 +670,7 @@ body::-webkit-scrollbar-thumb, .inputmessage::-webkit-scrollbar-thumb{
 }
 
 .projectframe3{
-    background:url('/media/screen-429_Trim.gif');
+    background:url('/media/429_Trim.gif');
     background-size:cover;
     width:55vmin; height:auto;
     display:block;
@@ -701,7 +698,7 @@ body::-webkit-scrollbar-thumb, .inputmessage::-webkit-scrollbar-thumb{
 }
 
 .projectframe4{
-    background:url('/media/screen-spacsec_Trim.gif');
+    background:url('/media/spacsec_Trim.gif');
     background-size:cover;
     width:55vmin; height:auto;
     display:block;
@@ -729,7 +726,7 @@ body::-webkit-scrollbar-thumb, .inputmessage::-webkit-scrollbar-thumb{
 }
 
 .projectframe5{
-    background:url('/media/screen-ieee_Trim.gif');
+    background:url('/media/ieee_Trim.gif');
     background-size:cover;
     width:55vmin; height:auto;
     display:block;
@@ -757,7 +754,7 @@ body::-webkit-scrollbar-thumb, .inputmessage::-webkit-scrollbar-thumb{
 }
 
 .projectframe6{
-    background:url('/media/screen-permalancer_Trim.gif');
+    background:url('/media/permalancer_Trim.gif');
     background-size:cover;
     width:55vmin; height:auto;
     display:block;
@@ -785,7 +782,7 @@ body::-webkit-scrollbar-thumb, .inputmessage::-webkit-scrollbar-thumb{
 }
 
 .projectframe7{
-    background:url('/media/screen-dbf_Trim.gif');
+    background:url('/media/dbf_Trim.gif');
     background-size:cover;
     width:55vmin; height:auto;
     display:block;

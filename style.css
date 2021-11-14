@@ -47,7 +47,6 @@ a:link, a:visited, a:hover, a:active, a:focus{
     flex-direction: column;
     margin-top: 5rem;
     min-height: 100vh;
-    /* background-color: green; */
 }
 
 .section-title{
@@ -75,8 +74,12 @@ a:link, a:visited, a:hover, a:active, a:focus{
     align-items: center;
     flex-direction: row;
     width: 80vw;
-    /* background-color: indianred; */
     margin: 2.5rem 0 1rem 0;
+}
+
+.lazy{
+    background-image: none;
+    background-color: #000ecf;
 }
 
 /*SCROLLBAR*/
